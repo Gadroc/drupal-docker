@@ -24,4 +24,4 @@ RUN . /etc/apache2/envvars && \
     apt-get autoremove --purge -y $BUILD_PACKAGES && \
     rm -rf /var/lib/apt/lists/*
 
-ADD imagefiles/* /
+ADD imagefiles /
