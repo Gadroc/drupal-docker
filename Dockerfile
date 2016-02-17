@@ -2,7 +2,7 @@ FROM php:5.6-apache
 
 EXPOSE 80
 
-ENV PACKAGES="mysql-client"
+ENV PACKAGES="mysql-client ssmtp"
 ENV BUILD_PACKAGES="libmysqlclient-dev wget libpng12-dev libjpeg-dev libpq-dev"
 
 ENV DRUPAL_VERSION 7.42
