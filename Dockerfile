@@ -5,8 +5,8 @@ EXPOSE 80
 ENV PACKAGES="mysql-client ssmtp libjpeg62-turbo"
 ENV BUILD_PACKAGES="libmysqlclient-dev wget libpng12-dev libjpeg-dev libpq-dev"
 
-ENV DRUPAL_VERSION 7.43
-ENV DRUPAL_MD5 c6fb49bc88a6408a985afddac76b9f8b
+ENV DRUPAL_VERSION 7.44
+ENV DRUPAL_MD5 965ab5fe5457625ec8c18e5c1c455008
 
 RUN . /etc/apache2/envvars && \
     apt-get update && \
