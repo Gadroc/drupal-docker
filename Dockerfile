@@ -3,10 +3,10 @@ FROM php:5.6-apache
 EXPOSE 80
 
 ENV PACKAGES="mysql-client ssmtp libjpeg62-turbo"
-ENV BUILD_PACKAGES="libmysqlclient-dev wget libpng12-dev libjpeg-dev libpq-dev"
+ENV BUILD_PACKAGES="default-libmysqlclient-dev wget libpng-dev libjpeg-dev libpq-dev"
 
-ENV DRUPAL_VERSION 7.59
-ENV DRUPAL_MD5 7e09c6b177345a81439fe0aa9a2d15fc
+ENV DRUPAL_VERSION 7.61
+ENV DRUPAL_MD5 94bc49170d98e0cfe59db487911ecb9d
 
 RUN . /etc/apache2/envvars && \
     apt-get update && \
