@@ -2,8 +2,8 @@ FROM php:5.6-apache
 
 EXPOSE 80
 
-ENV PACKAGES="mysql-client ssmtp libjpeg62-turbo"
-ENV BUILD_PACKAGES="default-libmysqlclient-dev wget libpng-dev libjpeg-dev libpq-dev"
+ENV PACKAGES="mysql-client ssmtp libjpeg62-turbo libpng-dev"
+ENV BUILD_PACKAGES="default-libmysqlclient-dev wget libjpeg-dev libpq-dev"
 
 ENV DRUPAL_VERSION 7.61
 ENV DRUPAL_MD5 94bc49170d98e0cfe59db487911ecb9d
